@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>New Team Member Added</masterLabel>
+    <isExposed>true</isExposed>
+    <description>Message channel to pass information so that can be recieved by another component</description>
+</LightningComponentBundle>

@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Add New Team Members">
+        <div class="slds-var-m-around_medium">
+            <lightning-record-form
+            object-api-name={teamMemberobjectApiName}
+            fields={fields}
+            onsuccess={handleSuccess}
+            >
+        </lightning-record-form>
+    </div>
+    </lightning-card>
+</template>
